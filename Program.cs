@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Reddit;
 using Reddit.Middlewares;
-using Reddit.Repositories;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
